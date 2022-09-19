@@ -1,0 +1,374 @@
+body {
+    background-color: #EAF6F6;
+    margin: 0px;
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-family: 'Sacramento', cursive;
+}
+h2 {
+    font-size: 2.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding: 0px;
+    line-height: 1;
+    color: #66BFBF;
+}
+h3 {
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+h4 {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+p {
+    font-size: .8rem;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+hr {
+    border-style: dotted none none none;
+    border-width: 10px;
+    width: 10%;
+    color: gray;
+    margin: 100px auto;
+}
+.top_container {
+    position: relative;
+    border: none;
+    border-width: 0px;
+    height: 500px;
+}
+.title-block  {
+    position: absolute;
+    width: 70%;
+    height: 40%;
+    margin: 0px auto;
+    top: 0px;
+    left: 15%;
+}
+.title1 {
+    position: relative;
+    bottom: 10%;
+    color: #66BFBF;
+}
+.title2 {
+    position: relative;
+    bottom: 30%;
+    margin: 1px;
+    font-size: 1.3rem;
+    color: #66BFBF;
+}
+.left-cloud {
+    position: absolute;
+    left: 5%;
+    bottom: 25%;
+    width: 25%;
+}
+.right-cloud {
+    position: absolute;
+    top: 2%;
+    right: 0%;
+    width: 25%;
+}
+.mountain {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    bottom: 0px;
+}
+.camper {
+    position: absolute;
+    width: 10%;
+    left: 33%;
+    bottom: -4%;
+}
+.middle-container {
+    background-color: white;
+}
+.intro {
+    width: 50%;
+    margin: auto;
+    line-height: 1.75rem;
+}
+.profile {
+    padding: 40px 40px 0px;
+}
+.profile-img {
+    margin: 20px;
+    width: 25%;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+.programming_skills {
+    padding: 0px;
+}
+.skill-img1 {
+    width: 160px;
+    float: left;
+    margin-right: 3%;
+}
+.skill-img2 {
+    width: 110px;
+    float: right;
+    margin-left: 3%;
+}
+.skill-img3 {
+    width: 110px;
+    float: left;
+    margin-right: 3%;
+}
+.skill-img4 {
+    width: 110px;
+    float: right;
+    margin-left: 3%;
+}
+.engineering_skills {
+    padding: 0px;
+}
+.eng-img1 {
+    width: 140px;
+    float: left;
+    margin-right: 3%;
+    background-color: black;
+}
+.experience {
+    padding: 0px;
+}
+.exp-img1 {
+    width: 250px;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+.exp-img2 {
+    width: 75px;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+.exp-img3 {
+    width: 200px;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+.job_title {
+    position: absolute;
+    right: 0%;
+    top: 0px;
+    margin: 0px;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+.skill-row {
+    display: block;
+    position: relative;
+    width: 700px;
+    margin: 70px auto;
+    text-align: left;
+    font-size: 1.0rem;
+    line-height: 1.75;
+}
+.get-in-touch {
+    position: relative;
+    margin: 20px;
+    height: 275px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.contact-msg {
+    width: 75%;
+    margin: 20 auto 20;
+}
+.hyperlink {
+    color: #11999E;
+    text-decoration: none;
+}
+.hyperlink:hover {
+    font-weight: 900;
+}
+.email_btn {
+  position: relative;
+  top: 20px;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.email_btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.bottom-container {
+    position: relative;
+    height: 120px;
+    width: 100%;
+    margin: 0 auto;
+    background: #66BFBF;
+}
+.footer-link {
+    position: relative;
+    top: 25px;
+    margin: 30px;
+    color: #11999E;
+    text-decoration: none;
+}
+.footer-link:hover {
+    color: #EAF6F6;
+}
+.copyright {
+    position: relative;
+    color: #EAF6F6;
+    top: 65px;
+    font-size: 0.85rem;
+}
+.mouse:hover {
+    background-color: #395B64;
+}
+
+.menu {
+    position: fixed;
+    left: 5px;
+    top: 5px;
+    background-color: #EAF6F6;
+    width: 130px;
+    border-radius: 15px;
+    border-color: #66BFBF;
+    border-width: 2px;
+    border-style: solid;
+    z-index: 21;
+}
+.menu_item {
+    position: relative;
+    top: 5%;
+    margin: 10% auto;
+    color: #11999E;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.menu_link{
+    text-decoration: none;
+}
+
+
+
+
+.project_header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0px;
+    background-color: white;
+    padding: 0px;
+    margin: 0%;
+    z-index: 20;
+}
+.project_title {
+    position: relative;
+    bottom: 30%;
+    color: #66BFBF;
+}
+.left-cloud1 {
+    position: absolute;
+    left: 25%;
+    bottom: 10px;
+    width: 5=10%;
+}
+.right-cloud1 {
+    position: absolute;
+    top: 10px;
+    right: 25%;
+    width: 10%;
+}
+.project1 {
+    position: relative;
+    width: 50%;
+    margin: 0% auto;
+    top: 0px;
+}
+.project_text {
+    line-height: 1.5rem;
+}
+.fusion360 {
+    position: relative;
+    margin: 20px auto 20px;
+    width: 100%;
+    height: 500px;
+}
+.fusion3602 {
+    position: relative;
+    margin: 20px auto 20px;
+    width: 75%;
+    height: 400px;
+}
+.woodstove_video {
+    display: block;
+    position: relative;
+    width: 700px;
+    margin: 0px auto;
+    height: 394px;
+    padding: 50px 0px;
+}
+.italics {
+
+}
+.pcb {
+    width: 250px;
+    padding: 10px;
+}
+.pcb1 {
+    width: 200px;
+    padding: 10px;
+}
+.schematic {
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+
+#woodstove_thermostat {
+    position: relative;
+    padding-top: 100px;
+}
+#onewheel {
+    position: relative;
+    top: -100px;
+    padding-top: 100px;
+}
+#robot {
+    position: relative;
+    padding-top: 100px;
+    top: -100px;
+}
+#solar {
+    position: relative;
+    padding-top: 100px;
+    top: -100px;
+}
+
