@@ -11,11 +11,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.js"></script>
 </head>
 <body>
   <div class="top_container">
     <img class="mountain" src="./images/mountain.png" alt="mountain-img">
-    <img class="camper" src="https://cdn-icons-png.flaticon.com/512/6643/6643430.png">
+    <img class="camper pop-img" src="https://cdn-icons-png.flaticon.com/512/6643/6643430.png">
     <div class="title-block">
 <!--      <img class="right-cloud" src="./images/cloud.png" alt=cloud-img">-->
       <h1 class="title1">Hi, I'm Nathan</h1>
@@ -26,7 +27,7 @@
   </div>
   <div class="middle-container">
     <div class="profile">
-      <img class="profile-img" src="./images/cv_picture.jpg" alt="">
+      <img class="profile-img pop-img" src="./images/cv_picture.jpg" alt="">
       <h2>Hello</h2>
       <p class="intro">
         Hi, I'm a self-motivated engineer with a passion for automation and the outdoors.
@@ -43,7 +44,7 @@
       <h2>Programming Skills</h2>
       <div class="skill-row">
         <a href="https://www.python.org/">
-          <img class="skill-img1" src="https://cdn-icons-png.flaticon.com/512/919/919852.png" alt="">
+          <img class="skill-img1 pop-img" src="https://cdn-icons-png.flaticon.com/512/919/919852.png" alt="">
         </a>
         <h3 class="skill_header" class="skill_header">Python</h3>
         <p>
@@ -53,7 +54,7 @@
         </p>
       </div>
       <div class="skill-row">
-        <img class="skill-img2" src="https://cdn-icons-png.flaticon.com/512/4785/4785958.png" alt="">
+        <img class="skill-img2 pop-img" src="https://cdn-icons-png.flaticon.com/512/4785/4785958.png" alt="">
         <h3 class="skill_header">C++</h3>
         <p>
           Completed numerous robotic / automation projects on the Arduino microcontroller
@@ -61,15 +62,15 @@
         </p>
       </div>
       <div class="skill-row">
-        <img class="skill-img3" src="https://cdn-icons-png.flaticon.com/512/2085/2085206.png" alt="">
+        <img class="skill-img3 pop-img" src="https://cdn-icons-png.flaticon.com/512/2085/2085206.png" alt="">
         <h3 class="skill_header">HTML & CSS</h3>
         <p>
           Learned Basic HTML in support of web development and ethical web scraping with Python.
         </p>
       </div>
       <div class="skill-row">
-        <img class="skill-img2" src="https://cdn-icons-png.flaticon.com/512/919/919828.png" alt="">
-        <h3 class="skill_header">JavaScript</h3>
+        <img class="skill-img2 pop-img" src="https://cdn-icons-png.flaticon.com/512/919/919828.png" alt="">
+        <h3 id="js_skill" class="skill_header">JavaScript</h3>
         <a class="hyperlink certificate_right" target="_blank" href="./documents/Javascript_basics_cert.pdf">JavaScript Basics Certificate
         </a>
         <p>
@@ -77,8 +78,16 @@
           into web applications.
         </p>
       </div>
+      <div class="skill-row" id="js_hints" style="display: none;">
+        <h3 class="hints">Hints</h3>
+        <p>
+          Notes: Use 
+          <code> npm install jquery --save </code>
+          in project directory to provide jquery intellisense in javascript files.
+        </p>
+      </div>
       <div class="skill-row">
-        <img class="skill-img3" src="https://cdn-icons-png.flaticon.com/512/5815/5815585.png" alt="">
+        <img class="skill-img3 pop-img" src="https://cdn-icons-png.flaticon.com/512/5815/5815585.png" alt="">
         <h3 class="skill_header">SQL</h3>
         <p>
           Learned intermediate SQL using MySQL server including how to manage relational databases and to
@@ -88,7 +97,7 @@
       <div class="skill-row">
         <a
           href="https://docs.microsoft.com/en-us/office/vba/library-reference/concepts/getting-started-with-vba-in-office">
-          <img class="skill-img4" src="https://cdn-icons-png.flaticon.com/512/28/28908.png" alt="">
+          <img class="skill-img4 pop-img" src="https://cdn-icons-png.flaticon.com/512/28/28908.png" alt="">
         </a>
         <h3 class="skill_header">VBA</h3>
         <p>
@@ -98,7 +107,7 @@
       </div>
       <div class="skill-row">
         <a href="https://git-scm.com/">
-          <img class="git-img5" src="https://git-scm.com/images/logo@2x.png" alt="">
+          <img class="git-img5 pop-img" src="https://git-scm.com/images/logo@2x.png" alt="">
         </a>
         <h3 class="skill_header">Git</h3>
         <a class="hyperlink certificate_left" target="_blank" href="./documents/certificate-of-completion-for-the-ultimate-git-course.pdf">Git Certificate
@@ -114,7 +123,7 @@
       <h2>Engineering Skills</h2>
       <div class="skill-row">
         <a href="https://www.solidworks.com/">
-          <img class="eng-img1" src="./images/solidworks.png" alt="Solidworks 3D">
+          <img class="eng-img1 pop-img" src="./images/solidworks.png" alt="Solidworks 3D">
         </a>
         <h3>Solidworks 3D</h3>
         <p>
@@ -128,18 +137,28 @@
       <h2>Work Experience</h2>
       <div class="skill-row">
         <a href="https://www.tronair.com/">
-          <img class="exp-img1" src="./images/tronair-logo.png" alt="Tronair Inc">
+          <img class="exp-img1 pop-img" src="./images/tronair-logo.png" alt="Tronair Inc">
         </a>
-        <h4 class="date">Nov. 2019 - Present</h4>
-        <h4 class="job_title">Mechanical Engineer</h4>
-        <p>
-          Supported the design and manufacturing of HPUs, GPUs, hydraulic jacks, and electric tugs.
-          Developed VBA algorithms to analyze inventory parameters during massive product migration.
-        </p>
+        <div>
+          <h4 class="date2">Nov. 2022 - Present</h4>
+          <h4 class="job_title2">Web Applications Developer</h4>
+          <p>
+            Supported the design and manufacturing of HPUs, GPUs, hydraulic jacks, and electric tugs.
+            Developed VBA algorithms to analyze inventory parameters during massive product migration.
+          </p>
+        </div>
+        <div>
+          <h4 class="date2">Nov. 2019 - Nov. 2022</h4>
+          <h4 class="job_title2">Mechanical Engineer</h4>
+          <p>
+            Supported the design and manufacturing of HPUs, GPUs, hydraulic jacks, and electric tugs.
+            Developed VBA algorithms to analyze inventory parameters during massive product migration.
+          </p>
+        </div>
       </div>
       <div class="skill-row">
         <a href="https://www.nescustomdesign.com/">
-          <img class="exp-img2" src="./images/NES.png" alt="NES Custom Design LLC">
+          <img class="exp-img2 pop-img" src="./images/NES.png" alt="NES Custom Design LLC">
         </a>
         <h4 class="date">May 2018 - Present</h4>
         <h4 class="job_title">Owner</h4>
@@ -149,7 +168,7 @@
       </div>
       <div class="skill-row">
         <a href="https://www.thermatru.com/">
-          <img class="exp-img3" src="./images/therma-tru-logo.png" alt="Therma-Tru Doors">
+          <img class="exp-img3 pop-img" src="./images/therma-tru-logo.png" alt="Therma-Tru Doors">
         </a>
         <h4 class="date1">Aug 2016 - May 2019</h4>
         <h4 class="job_title">Engineering Co-op</h4>
@@ -192,5 +211,7 @@
     <p class="copyright">© 2022 Nathan Spotts.</p>
   </div>
 
+
+  <script type="text/javascript" src="./scripts/home.js"></script>
 </body>
 </html>
