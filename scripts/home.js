@@ -8,11 +8,11 @@ $(document).ready( function() {
 });
 
 
-function popImg(event) {
-  let width = parseInt($(this).css("width"));
-  let ms = 100;
-  if(event.data.pop)
-    $(this).animate({'width': width*event.data.amt + 'px'}, ms);
-  else
-    $(this).animate({'width': width/event.data.amt + 'px'}, ms);
-}
+// function popImg(event) {
+//   let width = parseInt($(this).css("width"));
+//   let ms = 100;
+//   if(event.data.pop)
+//     $(this).animate({'width': width*event.data.amt + 'px'}, ms);
+//   else
+//     $(this).animate({'width': width/event.data.amt + 'px'}, ms);
+// }
