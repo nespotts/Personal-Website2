@@ -2,7 +2,6 @@ body {
     background-color: #EAF6F6;
     margin: 0px;
     margin-top: 0px;
-    text-align: center;
     font-family: 'Merriweather', serif;
     color: #40514E;
 }
@@ -284,6 +283,7 @@ iframe {
     width: 100%;
     margin: 0 auto;
     background: #66BFBF;
+    text-align: center;
 }
 .footer-link {
     position: relative;
@@ -310,7 +310,8 @@ iframe {
     left: 5px;
     top: 5px;
     background-color: #EAF6F6;
-    width: 145px;
+    text-align: center;
+    width: 150px;
     border-radius: 15px;
     border-color: #66BFBF;
     border-width: 2px;
@@ -339,6 +340,7 @@ iframe {
     height: 100px;
     top: 0px;
     background-color: white;
+    text-align: center;
     padding: 0px;
     margin: 0%;
     z-index: 20;
