@@ -1,223 +1,423 @@
 <!doctype html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
+    <meta charset="UTF-8">
+    <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Nathan's Personal Website</title>
-  <link rel="stylesheet" href="./static/css/bootstrap.css">
-  <link rel="stylesheet" href="./css/styles.css">
-  <link rel="icon" href="./images/favicon2.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nathan's Personal Website</title>
+    <link rel="stylesheet" href="./static/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./images/favicon2.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-  <div class="top_container text-center">
-    <img class="mountain" src="./images/mountain.png" alt="mountain-img">
-    <img class="camper pop-img" src="https://cdn-icons-png.flaticon.com/512/6643/6643430.png">
-    <div class="title-block">
-<!--      <img class="right-cloud" src="./images/cloud.png" alt=cloud-img">-->
-      <h1 class="title1">Hi, I'm Nathan</h1>
-      <h2 class="title2">I'm a Mechanical Engineer &</h2>
-      <h2 class="title2">Software Engineer in Training</h2>
-<!--      <img class="left-cloud" src="./images/cloud.png" alt=cloud-img">-->
-    </div>
-  </div>
-  <div class="middle-container text-center">
-    <div class="profile">
-      <img class="profile-img pop-img" src="./images/cv_picture.jpg" alt="">
-      <h2>Hello</h2>
-      <p class="intro">
-        Hi, I'm a self-motivated engineer with a passion for automation and the outdoors.
-        My wife and I love cto travel and explore God's beautiful creation.
-        I am a Mechanical Engineer by degree, but my true passion is for automation.
-        As such, I've done many <a class="hyperlink" href="./projects.html">projects</a> automating repetitious tasks as well as working with robotics,
-        electrical control systems, and IoT applications.
-
-      </p>
-    </div>
-    <hr>
-
-    <div class="programming_skills text-center" id="skills">
-      <h2>Programming Skills</h2>
-      <div class="skill-row">
-        <a href="https://www.python.org/" target="_blank">
-          <img class="skill-img1 pop-img" src="https://cdn-icons-png.flaticon.com/512/919/919852.png" alt="">
-        </a>
-        <h3 class="skill_header" class="skill_header">Python</h3>
-        <p>
-          Developed an algorithm for detecting water leaks through a door/threshold system involving radiowaves while working at Therma-Tru Doors.
-          Developed an extension for <a class="hyperlink" href="https://inkscape.org/" target="_blank">Inkscape</a> to convert an image to grayscale and output a
-          GCode file for a laser etcher to burn images in wood.
-        </p>
-      </div>
-      <div class="skill-row">
-        <img class="skill-img2 pop-img" src="https://cdn-icons-png.flaticon.com/512/4785/4785958.png" alt="">
-        <h3 class="skill_header">C++</h3>
-        <p>
-          Completed numerous robotic / automation projects on the Arduino microcontroller
-          framework, many of which connect with Wifi for IoT applications.
-        </p>
-      </div>
-      <div class="skill-row">
-        <img class="skill-img3 pop-img" src="https://cdn-icons-png.flaticon.com/512/2085/2085206.png" alt="">
-        <h3 class="skill_header">HTML & CSS</h3>
-        <p>
-          Learned Basic HTML in support of web development and ethical web scraping with Python.
-        </p>
-      </div>
-      <div class="skill-row">
-        <img class="skill-img2 pop-img" src="https://cdn-icons-png.flaticon.com/512/919/919828.png" alt="">
-        <h3 id="js_skill" class="skill_header">JavaScript</h3>
-        <a class="hyperlink certificate_right" target="_blank" href="./documents/Javascript_basics_cert.pdf">JavaScript Basics Certificate
-        </a>
-        <p>
-          Learned basic JavaScript syntax, functions, loops, etc. for programming functionality
-          into web applications.
-        </p>
-      </div>
-      <div class="skill-row" id="js_hints" style="display: none;">
-        <h3 class="hints">Hints</h3>
-        <p>
-          Notes: Use 
-          <code> npm install jquery --save </code>
-          in project directory to provide jquery intellisense in javascript files.
-        </p>
-      </div>
-      <div class="skill-row">
-        <img class="skill-img3 pop-img" src="https://cdn-icons-png.flaticon.com/512/5815/5815585.png" alt="">
-        <h3 class="skill_header">SQL</h3>
-        <p>
-          Learned intermediate SQL using MySQL server including how to manage relational databases and to
-          create views joining multiple tables from multiple databases.
-        </p>
-      </div>
-      <div class="skill-row">
-        <a
-          href="https://docs.microsoft.com/en-us/office/vba/library-reference/concepts/getting-started-with-vba-in-office">
-          <img class="skill-img4 pop-img" src="https://cdn-icons-png.flaticon.com/512/28/28908.png" alt="">
-        </a>
-        <h3 class="skill_header">VBA</h3>
-        <p>
-          Developed a VBA algorithm to interface with SQL data to calculate new inventory safety stock
-          parameters during the massive product line consolidation project at Tronair.
-        </p>
-      </div>
-      <div class="skill-row">
-        <a href="https://git-scm.com/">
-          <img class="git-img5 pop-img" src="https://git-scm.com/images/logo@2x.png" alt="">
-        </a>
-        <h3 class="skill_header">Git</h3>
-        <a class="hyperlink certificate_left" target="_blank" href="./documents/certificate-of-completion-for-the-ultimate-git-course.pdf">Git Certificate
-        </a>
-        <p>
-          Learned how to use git for version control, maintaining development history, collaboration, and deployment of code to servers.
-        </p>
-      </div>
-    </div>
-    <hr>
-
-    <div class="engineering_skills">
-      <h2>Engineering Skills</h2>
-      <div class="skill-row">
-        <a href="https://www.solidworks.com/">
-          <img class="eng-img1 pop-img" src="./images/solidworks.png" alt="Solidworks 3D">
-        </a>
-        <h3>Solidworks 3D</h3>
-        <p>
-          Have a strong understanding of part, assembly, sheetmetal, and drawing detailing.
-        </p>
-      </div>
-    </div>
-    <hr>
-
-    <div class="experience" id="experience">
-      <h2>Work Experience</h2>
-      <div class="skill-row">
-        <a href="https://www.tronair.com/">
-          <img class="exp-img1 pop-img" src="./images/tronair-logo.png" alt="Tronair Inc">
-        </a>
-        <div>
-          <h4 class="date2">Nov. 2022 - Present</h4>
-          <h4 class="job_title2">Web Applications Developer</h4>
-          <p>
-            Supported the design and manufacturing of HPUs, GPUs, hydraulic jacks, and electric tugs.
-            Developed VBA algorithms to analyze inventory parameters during massive product migration.
-          </p>
+    <div class="top_container text-center">
+        <img class="mountain" src="./images/mountain.png" alt="mountain-img">
+        <img class="camper pop-img" src="https://cdn-icons-png.flaticon.com/512/6643/6643430.png">
+        <div class="title-block">
+            <!--      <img class="right-cloud" src="./images/cloud.png" alt=cloud-img">-->
+            <h1 class="title1">Hi, I'm Nathan</h1>
+            <h2 class="title2">I'm a Mechanical Engineer &</h2>
+            <h2 class="title2">Software Engineer in Training</h2>
+            <!--      <img class="left-cloud" src="./images/cloud.png" alt=cloud-img">-->
         </div>
-        <div>
-          <h4 class="date2">Nov. 2019 - Nov. 2022</h4>
-          <h4 class="job_title2">Mechanical Engineer</h4>
-          <p>
-            Supported the design and manufacturing of HPUs, GPUs, hydraulic jacks, and electric tugs.
-            Developed VBA algorithms to analyze inventory parameters during massive product migration.
-          </p>
-        </div>
-      </div>
-      <div class="skill-row">
-        <a href="https://www.nescustomdesign.com/">
-          <img class="exp-img2 pop-img" src="./images/NES.png" alt="NES Custom Design LLC">
-        </a>
-        <h4 class="date">May 2018 - Present</h4>
-        <h4 class="job_title">Owner</h4>
-        <p>
-          Began an online custom design, 3D printing, and CNC laser engraving service.
-        </p>
-      </div>
-      <div class="skill-row">
-        <a href="https://www.thermatru.com/">
-          <img class="exp-img3 pop-img" src="./images/therma-tru-logo.png" alt="Therma-Tru Doors">
-        </a>
-        <h4 class="date1">Aug 2016 - May 2019</h4>
-        <h4 class="job_title">Engineering Co-op</h4>
-        <p>
-          Developed test methods using Python to understand root causes for door sealing failures.
-          Maintained and supported 3D printer prototyping for various projects.
-        </p>
-      </div>
     </div>
-    <hr>
+    <div class="middle-container text-center">
+        <div class="profile">
+            <img class="profile-img pop-img" src="./images/cv_picture.jpg" alt="">
+            <h2>Hello</h2>
+            <p class="intro">
+                Hi, I'm a self-motivated full stack developer with a passion for automation and the outdoors.
+                My wife and I love to travel and explore God's beautiful creation.
+                As a Mechanical Engineer by degree, I've completed many <a class="hyperlink"
+                    href="./personal_projects.html">personal projects</a>
+                automating repetitious tasks as well as working with robotics,
+                electrical control systems, and IoT applications. In the past two years I've begun my professional
+                journey as a
+                full-stack web developer and love every minute of it. Feel free to explore some of the
+                <a class="hyperlink" href="./professional_projects.html">web projects</a> I've had the opportunity to
+                work on.
+            </p>
+        </div>
+        <hr>
+
+        <div class="programming_skills text-center" id="skills">
+            <h2>Languages</h2>
+            <div class="skill-row">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img class="skill-img pop-img" src="https://cdn-icons-png.flaticon.com/512/2085/2085206.png" alt="">
+                    </div>
+                    <div class="col-md-10">
+                        <h3 class="skill_header">HTML & CSS</h3>
+                        <p>
+                            Used HTML and CSS extensively while developing web applications at Tronair.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <div class="row">
+                    <div class="col-md-10">
+                        <h3 id="js_skill" class="skill_header">JavaScript</h3>
+                        <a class="hyperlink certificate_right" target="_blank"
+                            href="./documents/Javascript_basics_cert.pdf">JavaScript
+                            Basics Certificate
+                        </a>
+                        <p>
+                            Used Javascript extensively developing interactive web applications at Tronair.  
+                            Learned to develop modular classes to organize code and create distinct functinality.
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="skill-img pop-img" src="https://cdn-icons-png.flaticon.com/512/919/919828.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <div class="row">
+                    <div class="col-md-2">
+                        <a href="https://www.php.net/" target="_blank">
+                            <img class="skill-img pop-img" src="./images/PHP-logo.svg.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-10">
+                        <h3 class="skill_header" class="skill_header">PHP</h3>
+                        <p>
+                            Developed Backend API for web applications using PHP integrating with SQL databases, active directory using LDAP, and more.  Developed scripts to automate reports in PHP.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <div class="row">
+                    <div class="col-md-10">
+                        <h3 class="skill_header">C#</h3>
+                        <p>
+                            Completed numerous robotic / automation projects on the Arduino microcontroller
+                            framework, many of which connect with Wifi for IoT applications.
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="skill-img pop-img" src="https://cdn-icons-png.flaticon.com/512/4785/4785958.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="skill-row">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img class="skill-img pop-img" src="https://cdn-icons-png.flaticon.com/512/5815/5815585.png" alt="">
+                    </div>
+                    <div class="col-md-10">
+                        <h3 class="skill_header">SQL</h3>
+                        <p>
+                            Learned intermediate SQL using MySQL server including how to manage relational databases and to
+                            create views joining multiple tables from multiple databases.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <div class="row">
+                    <div class="col-md-10">
+                        <h3 class="skill_header" class="skill_header">Python</h3>
+                        <p>
+                            Developed an algorithm for detecting water leaks through a door/threshold system involving
+                            radiowaves while
+                            working at Therma-Tru Doors.
+                            Developed an extension for <a class="hyperlink" href="https://inkscape.org/"
+                                target="_blank">Inkscape</a> to
+                            convert an image to grayscale and output a
+                            GCode file for a laser etcher to burn images in wood.
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="https://www.python.org/" target="_blank">
+                            <img class="skill-img pop-img" src="https://cdn-icons-png.flaticon.com/512/919/919852.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img class="skill-img pop-img" src="https://cdn-icons-png.flaticon.com/512/4785/4785958.png" alt="">
+                    </div>
+                    <div class="col-md-10">
+                        <h3 class="skill_header">C++</h3>
+                        <p>
+                            Completed numerous robotic / automation projects on the Arduino microcontroller
+                            framework, many of which connect with Wifi for IoT applications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-row" id="js_hints" style="display: none;">
+                <h3 class="hints">Hints</h3>
+                <p>
+                    Notes: Use
+                    <code> npm install jquery --save </code>
+                    in project directory to provide jquery intellisense in javascript files.
+                </p>
+            </div>
+
+            <div class="skill-row">
+                <div class="row">
+                    <div class="col-md-10">
+                        <h3 class="skill_header">VB</h3>
+                        <p>
+                            Developed a VB algorithm to interface with SQL data to calculate new inventory safety stock
+                            parameters during the massive product line consolidation project at Tronair.
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="https://docs.microsoft.com/en-us/office/vba/library-reference/concepts/getting-started-with-vba-in-office" target="_blank">
+                            <img class="skill-img pop-img" src="https://cdn-icons-png.flaticon.com/512/28/28908.png" alt="" target="_blank">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <div class="programming_skills text-center" id="technologies">
+            <h2>Technologies</h2>
+
+            <div class="skill-row">
+                <div class="row">
+                    <div class="col-md-2">
+                        <a href="https://git-scm.com/" target="_blank">
+                            <img class="skill-img pop-img" src="https://git-scm.com/images/logo@2x.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-10">
+                        <h3 class="skill_header">Git</h3>
+                        <a class="hyperlink certificate_left" target="_blank"
+                            href="./documents/certificate-of-completion-for-the-ultimate-git-course.pdf">Git Certificate
+                        </a>
+                        <p>
+                            Learned how to use git for version control, maintaining development history, collaboration, and
+                            deployment of
+                            code to servers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <div class="row">
+                    <div class="col-md-10">
+                        <h3 class="skill_header">jQuery</h3>
+                        <p>
+                            test 123
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="https://jquery.com/" target="_blank">
+                            <img class="skill-img pop-img" src="./images/jquery.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <div class="row">
+                    <div class="col-md-2">
+                        <a href="https://getbootstrap.com/" target="_blank">
+                            <img class="skill-img pop-img" src="./images/Bootstrap_logo.svg.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-10">
+                        <h3 class="skill_header">Bootstrap</h3>
+                        <p>
+                            test 123
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <div class="row">
+                    <div class="col-md-10">
+                        <h3 class="skill_header">Vue</h3>
+                        <p>
+                            test 123
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="https://vuejs.org/" target="_blank">
+                            <img class="skill-img pop-img" src="./images/Vue.js_Logo_2.svg.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <div class="row">
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-10">
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="skill-row">
+                <div class="row">
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-10">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <div class="row">
+                    <div class="col-md-10">
+
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <hr>
+        <div class="engineering_skills text-center">
+            <h2>Engineering Skills</h2>
+            
+            <div class="skill-row">
+                <div class="row">
+                    <div class="col-md-2">
+                        <a href="https://www.solidworks.com/" target="_blank">
+                            <img class="skill-img pop-img" src="./images/solidworks.png" alt="Solidworks 3D">
+                        </a>
+                    </div>
+                    <div class="col-md-10">
+                        <h3>Solidworks 3D</h3>
+                        <p>
+                            Have a strong understanding of part, assembly, sheetmetal, and drawing detailing.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <div class="row">
+                    <div class="col-md-10">
+
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+    
+        <div class="experience" id="experience">
+            <h2>Work Experience</h2>
+            <div class="skill-row">
+                <a href="https://www.tronair.com/">
+                    <img class="exp-img1 pop-img" src="./images/tronair-logo.png" alt="Tronair Inc">
+                </a>
+
+                <div>
+                    <h4 class="date2">Oct 2022 - Present</h4>
+                    <h4 class="job_title2">Web Applications Developer</h4>
+                    <p>
+                        test 123
+                    </p>
+                </div>
+                <div>
+                    <h4 class="date2">Nov 2019 - Oct 2022</h4>
+                    <h4 class="job_title2">Mechanical Engineer</h4>
+                    <p>
+                        Supported the design and manufacturing of HPUs, GPUs, hydraulic jacks, and electric tugs.
+                        Developed VBA algorithms to analyze inventory parameters during massive product migration.
+                    </p>
+                </div>             
+            </div>
+
+            <div class="skill-row">
+                <a href="https://www.thermatru.com/">
+                    <img class="exp-img1 pop-img" src="./images/therma-tru-logo.png" alt="Therma-Tru Doors">
+                </a>
+                <h4 class="date2">Aug 2016 - May 2019</h4>
+                <h4 class="job_title2">Engineering Co-op</h4>
+                <p>
+                    Developed test methods using Python to understand root causes for door sealing failures.
+                    Maintained and supported 3D printer prototyping for various projects.
+                </p>
+            </div>
+        </div>
+    </div>
+
 
     <div class="get-in-touch" id="contact">
-      <h2>Get In Touch</h2>
-      <h3>Feel free to contact me anytime</h3>
-<!--      <p class="contact-msg">Feel free to contact me anytime.</p>-->
-      <p>Phone:
-        <a class="hyperlink" href="tel:9378023161">(937) 802-3161</a>
-      </p>
-      <p>Email:
-        <a class="hyperlink" href="mailto:nathan_spotts@hotmail.com">nathan_spotts@hotmail.com</a>
-      </p>
-      <a class="email_btn" href="mailto:nathan_spotts@hotmail.com">EMAIL ME</a>
+        <h2>Get In Touch</h2>
+        <h3>Feel free to contact me anytime</h3>
+        <!--      <p class="contact-msg">Feel free to contact me anytime.</p>-->
+        <p>Phone:
+            <a class="hyperlink" href="tel:9378023161">(937) 802-3161</a>
+        </p>
+        <p>Email:
+            <a class="hyperlink" href="mailto:nathan_spotts@hotmail.com">nathan_spotts@hotmail.com</a>
+        </p>
+        <a class="email_btn" href="mailto:nathan_spotts@hotmail.com">EMAIL ME</a>
     </div>
-  </div>
+    </div>
 
-  <div class="menu text-center">
-    <div class="menu_item"><a class="menu_link hyperlink" href="./index.html">HOME</a></div>
-    <div class="menu_item"><a class="menu_link hyperlink" href="./professional_projects.html">PROFESSIONAL PROJECTS</a></div>
-    <div class="menu_item"><a class="menu_link hyperlink" href="./personal_projects.html">PERSONAL PROJECTS</a></div>
-    <div class="menu_item"><a class="menu_link hyperlink" href="#skills">SKILLS</a></div>
-    <div class="menu_item"><a class="menu_link hyperlink" href="#experience">EXPERIENCE</a></div>
-    <div class="menu_item"><a class="menu_link hyperlink" href="#contact">CONTACT</a></div>
-    <div class="menu_item"><a class="menu_link hyperlink" target="_blank" href="./documents/Resume_9-19-2022.pdf">Résumé</a></div>
-  </div>
+    <div class="menu text-center">
+        <div class="menu_item"><a class="menu_link hyperlink" href="./index.html">HOME</a></div>
+        <div class="menu_item"><a class="menu_link hyperlink" href="./professional_projects.html">PROFESSIONAL
+                PROJECTS</a>
+        </div>
+        <div class="menu_item"><a class="menu_link hyperlink" href="./personal_projects.html">PERSONAL PROJECTS</a>
+        </div>
+        <div class="menu_item"><a class="menu_link hyperlink" href="#skills">SKILLS</a></div>
+        <div class="menu_item"><a class="menu_link hyperlink" href="#experience">EXPERIENCE</a></div>
+        <div class="menu_item"><a class="menu_link hyperlink" href="#contact">CONTACT</a></div>
+        <div class="menu_item"><a class="menu_link hyperlink" target="_blank"
+                href="./documents/Resume_9-19-2022.pdf">Résumé</a></div>
+    </div>
 
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/nathan-spotts-173055165/">LinkedIn</a>
-    <a class="footer-link" href="https://www.nescustomdesign.com/">Website</a>
-    <a class="footer-link" target="_blank" href="./documents/Resume_9-19-2022.pdf">Download Résumé</a>
-    <p class="copyright">© 2024 Nathan Spotts.</p>
-  </div>
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/nathan-spotts-173055165/">LinkedIn</a>
+        <a class="footer-link" href="https://www.nescustomdesign.com/">Website</a>
+        <a class="footer-link" target="_blank" href="./documents/Resume_9-19-2022.pdf">Download Résumé</a>
+        <p class="copyright">© 2024 Nathan Spotts.</p>
+    </div>
 
-  <!-- libraries -->
-  <script type="text/javascript" src="./static/js/jquery.js"></script>
-  <script type="text/javascript" src="./static/js/bootstrap.js"></script>
+    <!-- libraries -->
+    <script type="text/javascript" src="./static/js/jquery.js"></script>
+    <script type="text/javascript" src="./static/js/bootstrap.js"></script>
 
-  <!-- custom scripts -->
-  <script type="text/javascript" src="./scripts/global.js"></script>
-  <script type="text/javascript" src="./scripts/home.js"></script>
+    <!-- custom scripts -->
+    <script type="text/javascript" src="./scripts/global.js"></script>
+    <script type="text/javascript" src="./scripts/home.js"></script>
 </body>
+
 </html>

@@ -5,7 +5,22 @@ $(document).ready( function() {
   $('#js_skill').on('dblclick', function() {
     $('#js_hints').toggle();
   });
+
+  setSkillRowWidth();
+  $(window).on('resize', (event) => {
+    setSkillRowWidth();
+  });
+
 });
+
+
+function setSkillRowWidth() {
+  let default_width = 700;
+  let window_width = $(window).width();
+  let width = window_width > default_width * 0.9 ? default_width : window_width * 0.9;
+  width = `${width}px`;
+  $('.skill-row').css('width', width);
+}
 
 
 
